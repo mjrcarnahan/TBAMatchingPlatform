@@ -1,0 +1,102 @@
+export const texts = {
+  buttons: {
+    back: 'Back',
+    register: 'REGISTER',
+    next: 'NEXT',
+    skip: 'Skip',
+  },
+  login: {
+    title: 'Sign in',
+    input1: 'Enter email',
+    input2: 'Enter password',
+    button: 'Submit',
+    link1: 'Forgot password?',
+    text: "Don't have an account?",
+    link2: 'Click here',
+  },
+  recover: {
+    title: 'Recover password',
+    subtitle: 'Please enter the email that you used to register',
+    input: 'Enter email',
+    button: 'Submit',
+    link: 'Sign in',
+  },
+  register: {
+    title: 'Register with The Biggest Ask to begin your journey!',
+    subtitle:
+      "The Biggest Ask's matching platform is meant to bring intended parents and surrogates together, as safely and efficiently as possible. Create your free account to get started.",
+    input1: '* First Name',
+    input2: 'Middle Name',
+    input3: '* Last Name',
+    input4: 'Maiden Name(if applicable)',
+    input5: '* Sex',
+    input6: '* Date of Birth',
+    input7: '* Email',
+    input8: '* Password',
+    input9: '* Confirm Password',
+    link: 'Why do I need to register at TBA?',
+    text1: 'Thank you for registering.',
+    text2: 'Please check your email to continue your journey!',
+  },
+  home: {
+    registered: 'Are you already registered?',
+    login: 'Click here to login',
+    signIn: 'Sign In',
+    title: 'Find a gestational surrogate or intended parent to begin your surrogacy journey!',
+    beforeHere:
+      "The Biggest Ask's matching platform consists of pre-screened, US-based intended parents and gestational surrogates. Read about our screening process",
+    afterHere:
+      'to see if you qualify to match with any of the surrogates or intended parents on the platform.',
+    textOption: 'If so, please pick one of the options below:',
+    button1: 'I am an intended parent',
+    button2: 'I am interested in being a surrogate',
+  },
+  nickname: {
+    title: 'Please enter your profile name',
+    subtitle: 'You can choose an alias/nickname to protect your identity on the matching platform.',
+    input: 'Nickname',
+  },
+  location: {
+    title: 'Where do you live?',
+    subtitle:
+      'Some intended parents and surrogates prefer to be located closer to each other to make it easier for intended parents to attend appointments, ultrasounds, hospital visits, etc.',
+    input1: 'State',
+    input2: 'City',
+    text: 'Have you moved to a new city in the past 2 years?',
+    link: 'If so, please indicate the city and state you lived in previously.',
+  },
+  relationship: {
+    title: 'Please select one of the following:',
+  },
+  bio: {
+    title: 'Please write a short bio',
+    subtitle:
+      'Let the surrogates know you by sharing things about yourself, what it means to you finding the right person to carry your child, previous experiences and expectations! The more you share the easier it is to find a surrogate!',
+    input: 'Short Bio...',
+  },
+  picture: {
+    title: 'Upload your profile photo',
+    help: 'Click here to upload your profile picture',
+    change: 'Change Image',
+    later: 'I will do this later',
+    removeLink: 'Remove photo',
+    removeTitle: 'Remove Photo',
+    removeQuestion: 'Are you sure you want to delete the photo?',
+    removeConfirm: 'Yes',
+    removeCancel: 'No',
+    recommendText:
+      'We highly recommend you to use a profile picture, this will be really helpful to find more potential matches',
+    recommendButton: 'Upload photo',
+    recommendLink: "I am sure I don't want to use a profile picture",
+    spouseTitle: 'Great! Would you like to create an account for your spouse?',
+    spouseCancel: 'No',
+    spouseConfirm: 'Yes',
+    congratulationTitle: 'Congratulations',
+    congratulationText: 'your account has been created!',
+    congratulationButton: 'Done',
+  },
+  spouse: {
+    title: 'Please tell us about your spouse',
+    subtitle: 'Your spouse will share the same profile and subscription as you.',
+  },
+}

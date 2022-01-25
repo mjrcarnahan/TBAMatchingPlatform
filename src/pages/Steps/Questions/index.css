@@ -1,0 +1,28 @@
+.radio-shorts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.radio-shorts .radio label {
+  padding: 0;
+  height: 100%;
+  width: 100px;
+  margin: 0 10px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .radio-shorts {
+    justify-content: center;
+  }
+}

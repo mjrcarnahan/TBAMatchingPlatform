@@ -1,0 +1,24 @@
+.step {
+  height: 50px;
+  position: relative;
+  margin-top: 80px;
+}
+
+.step-line {
+  position: absolute;
+  width: 100%;
+  background: var(--primary);
+  height: 2px;
+}
+
+.step-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -15px;
+}
+.step-item {
+  width: 30px;
+  height: 30px;
+  background: var(--primary);
+  border-radius: 100px;
+}

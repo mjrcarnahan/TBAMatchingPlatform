@@ -1,0 +1,20 @@
+.datepicker .MuiInputBase-formControl {
+  color: black !important;
+  padding: 15px 30px !important;
+  padding-right: 15px !important;
+  border: 1px solid #989898 !important;
+  border-radius: 100px !important;
+}
+
+.datepicker .MuiFormHelperText-root.Mui-error {
+  padding-left: 25px !important;
+  font-size: 16px !important;
+  color: #f44336 !important;
+}
+
+@media (max-width: 576px) {
+  .datepicker .MuiInputBase-formControl {
+    background: #f2f2f2 !important;
+    border: none !important;
+  }
+}

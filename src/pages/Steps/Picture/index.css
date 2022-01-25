@@ -1,0 +1,69 @@
+.photo {
+  width: 250px;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-image: url('https://tba.nelumbo.com.co/images/icons/starts.png');
+  background-size: cover;
+  background-position: center center;
+}
+.photo-image {
+  width: 150px;
+  height: 150px;
+}
+.photo-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 4px solid var(--secondary);
+  border-radius: 100px;
+}
+
+.photo-image::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background: #1b3661;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1;
+}
+
+.photo-image::after {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  right: 17px;
+  transform: rotate(45deg);
+  height: 18px;
+  width: 9px;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+  z-index: 1;
+}
+
+img.photo-upload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.photo-upload-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 0 0 10px 10px;
+}

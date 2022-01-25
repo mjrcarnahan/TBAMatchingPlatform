@@ -1,0 +1,243 @@
+.Candidate {
+  background: #e3deda;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.Candidate-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+.Candidate-video {
+  width: calc(75% - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Candidate-words {
+  color: var(--third);
+  font-size: 36px;
+  width: 80%;
+  line-height: 1.3;
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+.Candidate-words span {
+  font-size: 50px;
+}
+
+.Candidate-profile {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Candidate-profile-img {
+  width: 100%;
+  flex: 1;
+  position: relative;
+}
+
+.Candidate-profile-img img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: calc(100% + 70px);
+  margin-top: -70px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.Candidate .Candidate-profile-section {
+  width: 100%;
+}
+
+.Candidate .Candidate-profile-info {
+  display: flex;
+  background: white;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.Candidate .Candidate-profile-info section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.Candidate .Candidate-profile-info section:first-child {
+  border-right: 2px dashed var(--primary);
+}
+.Candidate .Candidate-profile-info section h4 {
+  margin-top: 10px;
+}
+.Candidate-profile-info .address {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+}
+.Candidate-profile-info .age {
+  font-size: 32px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.Candidate-profile-info-address {
+  width: 50%;
+}
+.Candidate-profile-info-age {
+  width: 50%;
+}
+
+.Candidate-bio {
+  line-height: 1.5;
+}
+
+.Candidate-profile-star {
+  text-align: center;
+  align-self: flex-start;
+  background: var(--third);
+  color: white;
+  padding: 10px;
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 50% 100%, 0 80%);
+  position: absolute;
+  top: -70px;
+  right: 0;
+  font-size: 14px;
+  height: 70px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+/* Badges */
+
+.Candidate-badges {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.badge {
+  color: #a2a2a2;
+  border: 2px solid #a2a2a2;
+  margin-right: 15px;
+  padding: 5px 10px;
+  border-radius: 100px;
+}
+
+/* Questions */
+.Candidate-questions {
+  margin-top: 30px;
+}
+.Candidate-questions h2 {
+  text-align: center;
+  color: var(--third);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.Candidate-questions h3 {
+  font-weight: bold;
+}
+.Candidate-questions p {
+  color: var(--gray3);
+}
+
+.Candidate-questions div {
+  margin-bottom: 20px;
+}
+/* Breadcumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  color: var(--text);
+}
+.breadcrumb a {
+  padding: 0;
+  color: var(--third);
+}
+
+.breadcrumb-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: var(--third);
+}
+
+@media (max-width: 1200px) {
+  .Candidate-container,
+  .breadcrumb {
+    padding: 0 20px;
+  }
+  .Candidate-video {
+    width: calc(75% - 20px);
+  }
+}
+
+@media (max-width: 992px) {
+  .Candidate-container {
+    flex-direction: column-reverse;
+    min-height: auto;
+  }
+  .Candidate .Candidate-profile-section {
+    width: auto;
+  }
+  .Candidate-video {
+    width: 100%;
+  }
+  .Candidate-video iframe {
+    min-height: 400px;
+  }
+  .Candidate-profile {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 520px;
+  }
+  .Candidate-words {
+    width: 100%;
+  }
+  .Candidate .Candidate-profile-img,
+  .Candidate .Candidate-profile-section {
+    width: 48%;
+    flex: initial;
+  }
+  .Candidate-profile-img img {
+    height: 100%;
+    margin-top: 0;
+  }
+  .Candidate-profile-star {
+    top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .Candidate .order-1 {
+    order: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .Candidate-profile {
+    flex-direction: column;
+    width: 100%;
+  }
+  .Candidate .Candidate-profile-section {
+    width: 100%;
+  }
+  .Candidate .Candidate-profile-img {
+    height: 250px;
+    width: 200px;
+    margin: auto;
+    position: relative;
+  }
+}

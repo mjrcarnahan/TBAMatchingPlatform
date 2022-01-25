@@ -1,0 +1,14 @@
+.SelectState {
+  min-width: 200px;
+}
+.SelectState * {
+  border-radius: 100px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.SelectState input {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px !important;
+}

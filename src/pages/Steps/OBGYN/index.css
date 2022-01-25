@@ -1,0 +1,23 @@
+.obgyn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.obgyn-container {
+  background: white;
+  padding: 60px;
+  max-width: 1200px;
+}
+.obgyn h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: var(--secondary);
+}
+
+@media (max-width: 768px) {
+  .obgyn-container {
+    padding: 30px;
+  }
+}

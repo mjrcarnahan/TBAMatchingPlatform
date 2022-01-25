@@ -1,0 +1,29 @@
+.candidates {
+  padding-bottom: 50px;
+}
+.candidates-header button {
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.candidates-filters h3 {
+  margin-right: 10px;
+}
+@media (max-width: 992px) {
+  .candidates-header h2 {
+    text-align: center;
+  }
+  .candidates-header button {
+    margin: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .candidates-filters {
+    padding: 0 10px;
+  }
+  .candidates-filters h3 {
+    display: none;
+  }
+}

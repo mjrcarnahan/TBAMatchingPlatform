@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'beloved';
+    src: url('beloved.eot');
+    src: url('beloved.eot?#iefix') format('embedded-opentype'),
+        url('beloved.woff2') format('woff2'),
+        url('beloved.woff') format('woff'),
+        url('beloved.ttf') format('truetype'),
+        url('beloved.svg#beloved') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
